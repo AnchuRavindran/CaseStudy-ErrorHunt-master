@@ -14,7 +14,7 @@ const nav= [
         link:"/addbook",title:"Add Book"},
     {
         link:"/addauthor",title:"Add Author"},
-];//part #2 Point6
+];//part #2 Point 6
 
 const loginRouter = require('./src/routes/loginroute');
 const signupRouter = require('./src/routes/signuproute');
@@ -49,5 +49,5 @@ app.get('/',function(req,res){
 });
 
 app.listen(port, host, function() {
-    console.log("Server started on port number 5000");
+    console.log("Server started on port number 5000");//Part #1 Point 5
   });
